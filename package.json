@@ -1,0 +1,48 @@
+{
+  "name": "student-info-management",
+  "version": "1.0.0",
+  "description": "A comprehensive student information management system",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext js,jsx,ts,tsx",
+    "server": "node server.js",
+    "start": "npm run build && node server.js",
+    "dev:full": "concurrently \"npm run dev\" \"npm run server\"",
+    "start:dev": "node start.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "lucide-react": "^0.263.1",
+    "react": "^18.2.0",
+    "react-datepicker": "^4.16.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.45.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.14",
+    "concurrently": "^8.2.2",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "vite": "^7.0.6"
+  },
+  "keywords": [
+    "student",
+    "information",
+    "management",
+    "react",
+    "tailwind"
+  ],
+  "author": "Student Info Management",
+  "license": "MIT"
+}
